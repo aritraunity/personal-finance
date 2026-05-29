@@ -2,7 +2,7 @@
 
 A full-stack personal finance CRUD application for tracking daily transactions and managing category budgets.
 
-![Personal Finance Interface](public\ui.png)
+![Personal Finance Interface](public/ui.png)
 
 ## Tech Stack
 
