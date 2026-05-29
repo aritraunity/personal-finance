@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /d/research/crud/server/app/models /d/research/crud/server/app/blueprints)",
+      "Bash(mkdir -p /d/research/crud/frontend/app /d/research/crud/frontend/components /d/research/crud/frontend/lib)"
+    ]
+  }
+}

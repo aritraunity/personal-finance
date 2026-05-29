@@ -1,0 +1,13 @@
+"""Shared Flask extensions, instantiated once and imported by the factory."""
+
+from flask_sqlalchemy import SQLAlchemy
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+
+db: SQLAlchemy = SQLAlchemy()
+
+limiter: Limiter = Limiter(
+    key_func=get_remote_address,
+    default_limits=["300 per day", "60 per hour"],
+    storage_uri="memory://",
+)

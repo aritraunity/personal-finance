@@ -1,0 +1,54 @@
+# --- OS ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- IDE ---
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sublime-project
+*.sublime-workspace
+
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Frontend: dependencies ---
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# --- Frontend: Next.js build output ---
+frontend/.next/
+frontend/out/
+
+# --- Frontend: environment / secrets ---
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# --- Frontend: TypeScript ---
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# --- Frontend: testing ---
+frontend/coverage/
+
+# --- Frontend: Vercel ---
+frontend/.vercel
